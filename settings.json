@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Bearded Theme Monokai Black",
+    "workbench.productIconTheme": "bootstrap-product-icons",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 15.5,
+    "editor.formatOnSave": true,
+    "workbench.tree.indent": 17,
+    "workbench.iconTheme": "mosmmy-icons-vscode",
+    "cSpell.enableFiletypes": [
+        "!jsonc"
+    ],
+    "editor.defaultFoldingRangeProvider": "ms-python.isort",
+    "python.terminal.launchArgs": [],
+    "black-formatter.args": [
+        "--line-length=120"
+    ],
+    "editor.fontLigatures": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.fontWeight": "normal",
+    "git.autofetch": true
+}
