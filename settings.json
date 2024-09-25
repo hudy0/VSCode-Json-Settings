@@ -1,21 +1,53 @@
 {
-    "workbench.colorTheme": "Bearded Theme Monokai Black",
-    "workbench.productIconTheme": "bootstrap-product-icons",
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 15.5,
-    "editor.formatOnSave": true,
-    "workbench.tree.indent": 17,
-    "workbench.iconTheme": "mosmmy-icons-vscode",
-    "cSpell.enableFiletypes": [
-        "!jsonc"
+    "workbench.colorTheme": "Bearded Theme Monokai Reversed",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.5,
+    "editor.rulers": [
+      120
     ],
-    "editor.defaultFoldingRangeProvider": "ms-python.isort",
-    "python.terminal.launchArgs": [],
-    "black-formatter.args": [
-        "--line-length=120"
-    ],
-    "editor.fontLigatures": false,
+    "editor.renderLineHighlight": "gutter",
+    "cSpell.language": "en",
+    "editor.suggestSelection": "first",
     "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.fontWeight": "normal",
-    "git.autofetch": true
-}
+    "editor.fontLigatures": true,
+    "cSpell.enableFiletypes": [
+      "!asciidoc",
+      "!c",
+      "!cpp",
+      "!csharp",
+      "!go",
+      "!handlebars",
+      "!haskell",
+      "!jade",
+      "!java",
+      "!latex",
+      "!php",
+      "!pug",
+      "!python",
+      "!restructuredtext",
+      "!rust",
+      "!scala",
+      "!scss"
+    ],
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "explorer.compactFolders": false,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.tabSize": 4,
+    "workbench.iconTheme": "symbols",
+    "editor.minimap.enabled": false,
+    "apc.font.family": "JetBrains Mono",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "cSpell.userWords": [
+      "Monokai"
+    ],
+  }
