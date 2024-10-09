@@ -1,12 +1,40 @@
 {
-    "workbench.colorTheme": "Bearded Theme Monokai Reversed",
-    "editor.fontSize": 16,
+  "editor.fontSize": 14.5,
     "editor.lineHeight": 1.5,
     "editor.rulers": [
-      120
+      119
     ],
-    "editor.renderLineHighlight": "gutter",
-    "cSpell.language": "en",
+    // "editor.renderLineHighlight": "gutter",
+    "editor.suggestFontSize": 14,
+    "editor.suggestLineHeight": 25,
+    // "editor.suggestLineWidth": 50,
+    "editor.suggest.showMethods": true,
+    "editor.suggest.showColors": true,
+    "editor.suggest.showDeprecated": true,
+    "editor.suggest.showIcons": true,
+    "editor.suggest.showTypeParameters": true,
+    "editor.suggest.showVariables": true,
+    "editor.suggest.showStructs": true,
+    "editor.suggest.showOperators": true,
+    "editor.suggest.showModules": true,
+    "editor.suggest.showKeywords": true,
+    "editor.suggest.filterGraceful": true,
+    "editor.suggest.matchOnWordStartOnly": true,
+
+    "editor.scrollbar.horizontalScrollbarSize": 7,  // Set horizontal scrollbar size
+    "editor.scrollbar.verticalScrollbarSize": 7,  // Set vertical scrollbar size
+    "editor.smoothScrolling": true,
+    "workbench.colorCustomizations": {
+      "editorSuggestWidget.background": "#2c2e30",
+      "editorSuggestWidget.border": "#3c3c3c",
+      "editorSuggestWidget.foreground": "#b1b1b1",
+      "editorSuggestWidget.highlightForeground": "#4b92d9",
+      "editorSuggestWidget.selectedBackground": "#3571ad",
+      "scrollbarSlider.background": "#4A4A4A",  // Darker background for the scrollbar
+      "scrollbarSlider.hoverBackground": "#5A5A5A",  // Hover color
+      "scrollbarSlider.activeBackground": "#6A6A6A",  // Active color when clicked
+    },
+    "cSpell.language": "en,lorem",
     "editor.suggestSelection": "first",
     "editor.inlineSuggest.suppressSuggestions": true,
     "editor.fontLigatures": true,
@@ -23,31 +51,55 @@
       "!latex",
       "!php",
       "!pug",
-      "!python",
       "!restructuredtext",
       "!rust",
       "!scala",
-      "!scss"
+      "!scss",
+      "dockerfile",
+      "makefile",
+      "pip-requirements"
     ],
     "editor.acceptSuggestionOnCommitCharacter": false,
     "explorer.compactFolders": false,
     "git.enableSmartCommit": true,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "JetBrainsMono",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit"
     },
     "editor.semanticHighlighting.enabled": false,
-    "workbench.productIconTheme": "fluent-icons",
+    "workbench.productIconTheme": "bootstrap-product-icons",
     "editor.fontFamily": "JetBrains Mono",
     "editor.tabSize": 4,
-    "workbench.iconTheme": "symbols",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
     "editor.minimap.enabled": false,
-    "apc.font.family": "JetBrains Mono",
+    // "apc.font.family": "JetBrains Mono",
     "workbench.settings.applyToAllProfiles": [
         "editor.fontFamily"
     ],
     "cSpell.userWords": [
-      "Monokai"
+      "autofetch",
+      "autouse",
+      "isort",
+      "jetbrains",
+      "Monokai",
+      "Pylance",
+      "pyproject",
+      "Structs"
     ],
+    "workbench.tree.indent": 11,
+    "window.zoomLevel": 0.5,
+    "git.autofetch": true,
+    "python.languageServer": "Pylance",
+    "files.autoSave": "afterDelay",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true,
+      },
+      "black-formatter.args": ["--config", "pyproject.toml"],
+      "isort.check": true,
+      "isort.args": [
+        "black"
+    ],
+    "workbench.colorTheme": "Min Tomorrow Dark"
   }
